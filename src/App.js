@@ -34,7 +34,7 @@ class App extends Component {
         <Person name={this.state.people[1].name} age={this.state.people[1].age} >My Hobbies: Looting </Person>
         <Person name={this.state.people[2].name} age={this.state.people[2].age} >{this.state.interest} </Person>
         <Person />
-
+        <Person />
       </div>
     );
     //return React.createElement('div',{className:'App'},React.createElement('h1',null,'Does this work now?'))
