@@ -33,8 +33,11 @@ class App extends Component {
         <Person name={this.state.people[0].name} age={this.state.people[0].age} danger="Maximum" />
         <Person name={this.state.people[1].name} age={this.state.people[1].age} >My Hobbies: Looting </Person>
         <Person name={this.state.people[2].name} age={this.state.people[2].age} >{this.state.interest} </Person>
+<<<<<<< HEAD
         <Person />
         <Person />
+=======
+>>>>>>> testBranch
       </div>
     );
     //return React.createElement('div',{className:'App'},React.createElement('h1',null,'Does this work now?'))
