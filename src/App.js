@@ -35,6 +35,10 @@ class App extends Component {
         <Person name={this.state.people[2].name} age={this.state.people[2].age} >{this.state.interest} </Person>
         <Person />
         <Person />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1883877129da47f527b8f080b6b9ca6c1c2ef3b9
       </div>
     );
     //return React.createElement('div',{className:'App'},React.createElement('h1',null,'Does this work now?'))
