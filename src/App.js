@@ -34,10 +34,17 @@ class App extends Component {
         <Person name={this.state.people[1].name} age={this.state.people[1].age} >My Hobbies: Looting </Person>
         <Person name={this.state.people[2].name} age={this.state.people[2].age} >{this.state.interest} </Person>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Person />
         <Person />
 =======
 >>>>>>> testBranch
+=======
+        <Person />
+        <Person />
+        <Person />
+        <Person />
+>>>>>>> a1ea32b0de3ca181f3f9befcaafbc3c5a86a2456
       </div>
     );
     //return React.createElement('div',{className:'App'},React.createElement('h1',null,'Does this work now?'))
