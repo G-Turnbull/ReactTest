@@ -16,11 +16,11 @@ class App extends Component {
     // DON'T DO THIS: this.state.people[0].name = 'Mega Greg';
     this.setState({
       people: [
-        {name: 'Greg', age: 840},
-        {name: 'Rangle', age: 69},
-        {name: 'Dangle', age: 360}
+        {name: 'Greg', age: 100},
+        {name: 'Rangle', age: 200},
+        {name: 'Dangle', age: 300}
       ],
-      interest: 'maXimum whippag3'
+      interest: 'Super loot'
     })
   }
 
